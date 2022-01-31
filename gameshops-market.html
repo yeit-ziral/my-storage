@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/game-style.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Market - Game shops</title>
+    </head>
+    <body>
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>18:43</span>
+            </div>
+            <div class="status-bar__column">
+                <i class="fas fa-shopping-cart fa-lg"></i>
+            </div>
+        </div>
+
+        <div class="game-shop">
+            <div>
+                <i class="fas fa-search fa-2x"></i>
+                <input class="game-shop__search" name="search" type="text" placeholder="search"/>
+            </div>
+            <div class="game-shop__shops">
+                <img src="data:image/jpeg;base64,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"
+                class="gameshop-img-steam"/>
+                <a href="https://store.steampowered.com/">
+                    <span class="link">Steam</span>
+                </a>
+            </div>
+            <div class="game-shop__shops">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAACACAMAAADdy6w7AAAAbFBMVEUvLS7///8uLC0jICIrKSrV1dUgHR8AAAD4+PglIyRKSUmJiYkXFBalpKUoJiezs7POzs6Uk5Q4Njfs7Ozj4+MNCAtmZWU9Ozx1dHVSUFEcGRrFxcXy8vITDxF8fHyura5EQkNaWVm8vLybm5sZMMrSAAAHEUlEQVRoge2a67qCKBSGERCkjPJESmke7v8eh4OaqYX71DwzT9+PvZWAVxBYiyXAU0qOVXMGf6hzUx0TTQKeF+SZZBj+JQ5iJrMq0LhgJ/8UNSLlLlC4XL4DpiUrDyTZu2gAZgm4va1xqnlHULH34dAeNPh9OC5A/JZhaQXr97G04vfiPvo/Cc61TFtkvt9zRKQSQRstDOTsURxq8zGRqm9YiPCYxd5K3lSR1r7akS12BjLfe1SaAXKYJgTpJadcZyb7PmVnVqawvkyyXQ8hd+PQAkdnOGP+C7LA0f0sU1A7eRtxntewGQ5Vy0zItR5vxgUEPuBgFiwztS7jthnnRfIBR+ZdaeQan9txPoJTnLys5PFyhzEdcUGaWJ3KO65t20syVAWmOEiG9FYIkQ/PfHD05og70dIqBCMuoFlG5VDVGU9xaGg0ZZwTcLV3x3Az7p444szoz/uKG76G60x7aF/L5Wc4qB2AvmKxiouIwZ0+uA/ug/uf48LD6aJ06tBmXO+a4O/ggMyMNtu7NK+sCvwd3EYt7Z1ac9+Ji2Y49j5chhChx/6HYtXe/SYuz/P96CTE8I9xD0r5n+C6J7jjgyf2U1zaHawEX8fV+DdxJ2q2MlJysIpTffwKJ6lRttXPXFvEpjT983Nc2Q/flL3mbcIlbW1Wpxe4m71Tvu/3cYHQLquoobRbm7/GlWbzODr+f40jj4U/uA/ug3uCs/u77PhlnPWlshJ+CXeiHGNO0/7OYR/ue3PfKj2pPfgG3Lg3vzW7XdP2N5vd2lHJJtw08hDcIyzd1lDAV3Ek8la0c4Spvo2D4QrNd/Tl93GrYSNnDO77OEC7OU04/RaI0lmZ6x3nzXHD+7LxzFKcJuWC9uzY/hhePBdUaWdzdZ7FCyHo0/t7RuK8u2kdIgHkpq89ED8KTtKe5b3fMxkaEe7wwT766KN/WRBz/hCUn0xmOLsGj0vDevlXwiVohGjiclwuWFEUve1SK5eSDdhzdVWrpPNECgJDVb7ZoXDTMkbON+MJqH1Vv6TjIgiCa2FK8/yaJNdGs5FQl0GBQz8ZlUqAmSkfpId4wyItxXVc1fe2FXZ3eDDGkplIe0r11zBjPQqeTazItYTheBsI5xkA1kysiMXBzFo+Y38sztsTEFoD94gLSjnZfO6c35ykaduxqpRneiht7/Z2zZxX6HEe4nUwxXVWEaO6J6NadIG3d56nsFU3lLGS3HrXVlcQ9D044tohZtnj4lIbHomA7oogpjKke+dhEes8dCVANnRg2qOjYEdduR4gA84b+qzH5Y3eSosYZqZ72upMSxdNDXOd+YxRlRrpd21cyJ3+GthmPa5v2NWfv7ugweO7S/el89XFOiMb4085Avis/vsSJOYHizvaKk2AbI6D4ejh+tDBG1o3wZmn7c6xdsTV/sbgWqqz+eb19birUaImJ5Ri+Ozm+jw5vDtcC3EzOAgTW5keLAkdcMIMqAmuqY10HSzMQBPpROU1vuZJM5lESaT5Upwz8vAJVzCLK+lFTftygosz4xNJCEu/IiHJ7Ah1RamYnXe5iBLTOvng517CHgeBz+EUd+tDdiBTve5HzU7PqBS61mkkptXnstFdybQ7udPdGROLA1hCMMUNY4VP9yYbzk3JCa9DmR5mndSmpdSD5Zb1OK013Bh+040rNxghFh5M+eSGJa5TNUpsl/AmSK6ptgjXm93ahO3VWoTrYBCuaQzD+GbKpxHdZPIgIbCuMTJuN0eI9bMHM4Q4tH9tRvuj/jdIRxSxRDyOOdkcSYXKPvdveXpAxF5PUlYOmIzpzlHy0X9Mbz10FwOnO/GLwgUQ7hNBvyYuQLTBF/wtoQi0bo/i11RegBe/rTf52QPeib/puCvjvj6G7RfhG8ISPCxSc+pbma+ddIRVfyiI5M7EOIE1hH5Ft0V5vgWTtOpdEDCa4QOnq4NGOVYbtd5DnKLDGFAdcdrvEZSslMjb9rhBbbtfLoiQUDE9QTbFaXvPF442xHE0jzquyO/Oi+0xLtn+MYIIZqWCo9r9zIopZ+L8khicojOZv3vIaHGbH/yb4/Rz5my+q4ZYkqKbhzp7lr+vpZy3TPkr+coTruD0Z+W6nE9FiENZHOZExdqVZNH/vKyj1YdbxelYa0MWw0YTxS25Z1IsumDpvm/a63q9T3CenoqL12GeOxRHU5fqwxUWwCGqnr/n5zh9PBavnI9VxCw/7gFdO1vKSnB40jAnTunS0LXJy8I11nySfR2nXPdIOve8thczFCWu2pw4pWOxmIqLhiHaHN01bcLpYSNfBbhwSF4Mj6/jVJ92dbZuFSHPdp2zF7+I01NRoOXBcTXJxGXljPKPcZ6OlIDHPsUhqNaXtt/Aqal4q8cD9IDJ+vZqkv0c52mrmBG1+cMkc02yX8HpFbwBoNk8PKb6B3VGmGfHDql4AAAAAElFTkSuQmCC"
+                class="gameshop-img-epic" />
+                <a href="https://www.epicgames.com/store/ko/">
+                    <span class="link">Epic Games</span>
+                </a>
+            </div>
+            <div class="game-shop__shops">
+                <img src="data:image/png;base64,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"
+                class="gameshop-img-stove" />
+                <a href="https://www.onstove.com/">
+                    <span class="link">STOVE</span>
+                </a>
+            </div>
+        </div>
+
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__btn">
+                    <a class="nav__link" href="gameshops-market.html">
+                        <i class="fas fa-shopping-cart fa-2x"></i>
+                    </a>
+                </li>
+                <li class="nav__btn">
+                    <a class="nav__link" href="gameshops-library.html">
+                        <i class="fas fa-th-large fa-2x"></i>
+                    </a>
+                </li>
+                <li class="nav__btn">
+                    <a class="nav__link" href="gameshops-news.html">
+                        <span class="nav__notification">3</span>
+                        <i class="far fa-newspaper fa-2x"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        
+        <script 
+            src="https://kit.fontawesome.com/40b987b575.js" 
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

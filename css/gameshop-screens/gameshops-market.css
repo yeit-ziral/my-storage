@@ -1,0 +1,45 @@
+.game-shop {
+  width: 100%;
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+}
+.game-shop__shops {
+  display: flex;
+  justify-content: flex-start;
+}
+.game-shop__search {
+  border: none;
+  padding: 15px 0px;
+  font-size: 30px;
+  margin-bottom: 25px;
+  background-color: rgb(219, 145, 6);
+}
+.gameshop-img-steam {
+  width: 111px;
+  height: 111px;
+  border-radius: 10px;
+}
+
+.gameshop-img-epic {
+  width: 111px;
+  height: 130px;
+  border-radius: 10px;
+}
+.gameshop-img-stove {
+  width: 111px;
+  height: 111px;
+  border-radius: 10px;
+}
+.link {
+  font-size: 60px;
+  margin-left: 20px;
+}
+a {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}

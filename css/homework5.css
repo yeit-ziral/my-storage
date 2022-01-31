@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@900&display=swap");
+html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  height: 800px;
+  width: 350px;
+  border: 8px solid rgb(68, 150, 122);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.thick-font {
+  font-family: "Outfit", sans-serif;
+}
+.up-bar {
+  width: 350px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+.up-bar__noting {
+  height: 15px;
+  width: 15px;
+  margin-left: 30px;
+}
+.up-bar__title {
+  font-size: x-large;
+}
+.now-playing {
+  height: 120px;
+  width: 315px;
+  display: flex;
+  justify-content: space-between;
+}
+.now-playing__img {
+  height: 120px;
+  width: 120px;
+  background-color: orange;
+  border: 3px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+.now-playing__name {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-right: 50px;
+}
+.now-playing__name__big {
+  font-size: xx-large;
+}
+.buttons {
+  height: 80px;
+  width: 325px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.buttons__play {
+  padding: 15px 45px;
+  font-size: large;
+  font-family: "Outfit", sans-serif;
+  border-radius: 15px;
+  border-bottom-width: 5px;
+}
+.fa-play {
+  margin-right: 10px;
+}
+.buttons__round {
+  border-radius: 50%;
+  border-bottom-width: 5px;
+  padding: 15px;
+}
+.other-songs {
+  width: 325px;
+  height: 360px;
+  margin-left: 5px;
+}
+.other-songs__box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.other-songs__box__color {
+  height: 30px;
+  width: 30px;
+  border: 3px solid black;
+  border-radius: 15px;
+}
+.other-songs__box__title {
+  font-size: x-large;
+}
+.other-songs__box__red {
+  height: 55px;
+  width: 55px;
+  background-color: red;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.other-songs__box__pink {
+  height: 55px;
+  width: 55px;
+  background-color: rgb(223, 109, 128);
+  border: 3px solid black;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.other-songs__box__blue {
+  height: 55px;
+  width: 55px;
+  background-color: blue;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.other-songs__box__emerald {
+  height: 55px;
+  width: 55px;
+  background-color: rgb(80, 150, 129);
+  border: 3px solid black;
+  border-radius: 10px;
+  margin-right: 10px;
+}

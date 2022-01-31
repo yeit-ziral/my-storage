@@ -1,0 +1,75 @@
+.steam-games {
+  width: 100%;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 80px;
+  padding: 10px 20px;
+  background-color: rgb(1, 50, 95);
+  color: rgba(255, 255, 255, 0.671);
+  font-size: 18px;
+}
+.s-games {
+  width: 100%;
+  height: 220px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 5px 20px;
+  box-sizing: border-box;
+}
+
+.epic-games {
+  width: 100%;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgb(0, 7, 14);
+}
+.e-games {
+  width: 100%;
+  height: 220px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 5px 20px;
+  box-sizing: border-box;
+}
+
+.stove-games {
+  width: 100%;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgb(199, 129, 0);
+}
+.st-games {
+  width: 100%;
+  height: 220px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 5px 20px;
+  box-sizing: border-box;
+}
+
+.g__img {
+  width: 144px;
+  height: 180px;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+.s-g {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 30px;
+}

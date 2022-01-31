@@ -1,0 +1,103 @@
+.steam-news {
+  width: 100%;
+  height: 243px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 80px;
+  padding: 10px 20px;
+  background-color: rgb(1, 50, 95);
+  color: rgba(255, 255, 255, 0.671);
+  font-size: 18px;
+}
+.s-news {
+  width: 100%;
+  height: 220px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  box-sizing: border-box;
+}
+
+.epic-news {
+  width: 100%;
+  height: 243px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgb(0, 7, 14);
+}
+.e-news {
+  width: 100%;
+  height: 220px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  box-sizing: border-box;
+}
+
+.stove-news {
+  width: 100%;
+  height: 243px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgb(199, 129, 0);
+}
+.st-news {
+  width: 100%;
+  height: 220px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  box-sizing: border-box;
+}
+.news-img {
+  height: 88px;
+  width: 148px;
+}
+.news-link {
+  margin-left: 20px;
+}
+
+.game-news {
+  display: flex;
+  align-items: center;
+}
+
+.n-title {
+  font-size: 26px;
+}
+
+@keyframes markersAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(10px) rotateY(360deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.markers {
+  background-color: tomato;
+  color: white;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-right: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: markersAnimation 2s ease-in-out infinite;
+}

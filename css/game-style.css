@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@900&display=swap");
+@import "reset.css";
+@import "variable.css";
+/*components*/
+@import "components/game-status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+
+/*screens*/
+@import "gameshop-screens/game-login.css";
+@import "gameshop-screens/gameshops-market.css";
+@import "gameshop-screens/gameshops-library.css";
+@import "gameshop-screens/gameshops-news.css";
+@import "gameshop-screens/steam-news.css";
+
+body {
+  font-family: "Outfit", sans-serif;
+  color: #2e363e;
+}
