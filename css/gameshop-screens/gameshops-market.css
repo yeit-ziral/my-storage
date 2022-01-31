@@ -11,12 +11,17 @@
   display: flex;
   justify-content: flex-start;
 }
+
+.shop-search {
+  display: flex;
+  justify-content: center;
+}
 .game-shop__search {
   border: none;
   padding: 15px 0px;
   font-size: 30px;
   margin-bottom: 25px;
-  background-color: rgb(219, 145, 6);
+  background-color: rgb(192, 192, 192);
 }
 .gameshop-img-steam {
   width: 111px;
